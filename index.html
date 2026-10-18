@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lucy (Lucidictt)</title>
+    <meta name="description" content="lucy (Lucidictt)'s site">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body role="document">
+
+    <header class="header" role="banner">
+        <div class="header-logo">
+        </div>
+        <nav class="header-nav" aria-label="Sayfa içi gezinme">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">about</a></li>
+                <li><a href="#whoami" class="nav-link">Who am I?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content" role="main">
+        <div class="column">
+
+            <section id="about" class="fade-in-section is-visible" aria-labelledby="about-heading">
+                <article class="bio-grid" itemscope itemtype="https://schema.org/Person">
+                    <figure>
+                        <a href="https://steamcommunity.com/id/tonic_0/">
+                            <img src="img/punpun.jpg" alt="lucy profile picture" class="profile-img">
+                        </a>
+                    </figure>
+                    <div class="bio-text">
+                        <h1 id="about-heading" itemprop="name">lucy (Lucidictt)</h1>
+                        <h3 itemprop="jobTitle">stupid chronically online kid</h3>
+                        <p itemprop="description">
+                            I do stuff
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+    
+
+            <section id="whoami" class="fade-in-section is-visible" aria-labelledby="whoami-heading">
+                <h2 id="whoami-heading">Who am I?</h2>
+                <article>
+                    <p>
+                         I am <a target="_blank" href="https://steamcommunity.com/id/tonic_0/" rel="noopener noreferrer"><strong>lucy</strong></a> who does things. My favorite manga is Oyasumi Punpun. I first used a computer at age three and have been interested in technology ever since. Around nine or ten, I discovered Counter-Strike, which I am kinda addicted to.
+                    </p>
+                    <p>
+I live in Belgium and speak English, Dutch, French, and Turkish. I have basic knowledge of C and C++, along with some Python and JavaScript. I used to be more pretty invested in computers, though I’m not as knowledgeable or enthusiastic as I once was. I built this website myself, HEAVILY inspired by <a href="https://chun.nekoweb.org/">this site</a>, which I attempted to recreate closely, I mean It’s blatantly copied because I have no creativity. Chun, if you are reading this, please don’t sue me. Love you &lt;3. Check out his awesome youtube channel <a href="https://www.youtube.com/@chunsal">here</a>. I use a minimal DWM setup on Gentoo, and on my laptop I run Void Linux with Window Maker.</p>
+                    <h3>For those who are curious</h3>
+                    <div class="merakli-container">
+                        <div class="merakli-item">
+                            <button class="merakli-toggle" aria-expanded="false" aria-controls="content-sistem">my system specs</button>
+                            <div class="merakli-content" id="content-sistem" role="region" aria-labelledby="content-sistem">
+                                <div>
+                                    <ul class="merakli-liste">
+                                        <li><span>CPU</span><span>AMD ryzen 5 3600</span></li>
+                                        <li><span>GPU</span><span>AMD RX6600</span></li>
+                                        <li><span>RAM</span><span>32 GB DDR4</span></li>
+                                        <li><span>Motherboard</span><span>rog strix b450-f</span></li>
+                                        <li><span>Storage</span><span>512 GB NVMe, 128 GB NVMe, 2x 1TB SATA SSD</span></li>
+                                        <li><span>Case</span><span>Hyte Y70</span></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+       
+                        <div class="merakli-item">
+                            <button class="merakli-toggle" aria-expanded="false" aria-controls="content-ekipmanlar">My Equipment</button>
+                            <div class="merakli-content" id="content-ekipmanlar" role="region" aria-labelledby="content-ekipmanlar">
+                                <div>
+                                    <ul class="merakli-liste">
+                                        <li><span>Monitor</span><span>144Hz Monitor (2. Monitor 60Hz)</span></li>
+                                        <li><span>Keyboard</span><span>Slightly modded Redragon K617</span></li>
+                                        <li><span>Mouse</span><span>Razer DeathAdder V2</span></li>
+                                        <li><span>Headset (& Microphone)</span><span>HyperX Cloud 3 Wireless</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="merakli-item">
+                            <button class="merakli-toggle" aria-expanded="false" aria-controls="content-oyunlar">Favorite Games</button>
+                            <div class="merakli-content" id="content-oyunlar" role="region" aria-labelledby="content-oyunlar">
+                                <div>
+                                    <ul class="merakli-liste">
+                                        <li><span>Competitive</span><span>Counter-Strike</span></li>
+                                        <li><span>Story</span><span>Red Dead Redemption 2</span></li>
+                                        <li><span>Indie</span><span>Undertale</span></li>
+                                        <li><span>Pyschology</span><span>Milk outside a bag of milk outside a bag of milk & Yumme Nikki</span></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <p class="footer-copyright">© 2025 lucy (Lucidictt), all rights reserved.</p>
+    </footer>
+
+
+    <div id="xp-popup-overlay" class="visible">
+        <div id="popup" class="popup">
+            <div class="popup-titlebar">
+                <span>lucy</span>
+            </div>
+            <div class="popup-body">
+                <p>Music?</p>
+                <div class="popup-buttons">
+                    <button id="yes-btn">sure</button>
+                    <button id="no-btn">no</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div id="volume-control">
+        <input type="range" id="volume-slider" min="0" max="100" value="50">
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="img/lucy.mp3" type="audio/mpeg">
+        Your browser does not support audio playback.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
